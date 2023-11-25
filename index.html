@@ -81,7 +81,27 @@
     <main>
       <section class="container-fluid my-5">
         <h1 class="text-center">Trabajo Práctico N°5 - Punto 3</h1>
-        
+        <div class="d-flex justify-content-center">
+            <form class="text-center my-5">
+                <div class="mb-3">
+                  <label for="inputTarea" class="form-label"
+                    >Ingrese la tarea que quiera agregar</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="inputTarea"
+                    aria-describedby="tarea"
+                    placeholder="Ingrese la tarea"
+                    minlength="5"
+                    maxlength="100"
+                    required
+                  />
+                </div>
+                <button type="submit" class="btn btn-outline-primary">Agregar</button>
+              </form>
+        </div>
+       
       </section>
     </main>
 
